@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from todo.views import say_hello
 from todo.views import get_todo_list
 
 urlpatterns = [
